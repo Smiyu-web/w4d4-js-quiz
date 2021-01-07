@@ -126,6 +126,7 @@ const num = parseInt("7*6", 10);
 
 // Ans:C
 // Short explanation:
+// "7*6" is string. When it's string, it would only take first of number.
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Question 8: 
