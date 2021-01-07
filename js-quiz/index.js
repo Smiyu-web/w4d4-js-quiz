@@ -182,11 +182,8 @@ Example: normalize('20-05-2017') should return
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 function replaceText(date) {
-  let finalDate = date.replaceAll('-', '/');
+  let finalDate = date.split('-').join('/');
   return finalDate;
 }
 
 console.log(replaceText('20-05-2017'));
-
-
-
